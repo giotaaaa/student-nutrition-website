@@ -1,0 +1,226 @@
+body, html {
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 10%;
+}
+#box{
+  margin:0px;
+  height: 45%;
+  width: 100%;
+  animation-name: back-im;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes back-im{
+  0%{
+    background-image: url(frtsalad.jpg);
+  }
+  25%{
+    background-image: url(fast-food.jpg);
+  }
+  50%{
+    background-image: url(image1.jpg);
+  }
+  75%{
+    background-image: url(image.jpg);
+  }
+  100%{
+    background-image: url(ffood.jpg);
+  }
+}
+
+.bg-image {
+  background-image: url("image.jpg");
+  
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  
+  min-height: 250px; 
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.navbar{
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.dropdown {
+  float: left;
+  overflow: auto;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, a.split{
+  background-color: rgb(154, 194, 184);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(154, 194, 184);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar a.active{
+  background-color: rgb(154, 194, 184);
+  color: black;
+}
+
+.navbar a.split{
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-left: 20px;
+}
+  
+p.a{
+  margin-left: 250px;
+  text-align-last: center;
+  font-size: 20px;
+  margin-right: 250px;
+}
+
+p.b{
+  text-align: left;
+  margin-left: 20px;
+  font-size:20px ;
+}
+
+p.c{
+  text-align: right;
+  margin-right: 20px;
+}
+
+h3{
+  margin-left: 13px;
+  text-align: left;
+}
+div.a{
+  padding-left: 30px;
+  width: 250px;
+  height: 300px;
+  text-align: justify;
+  font-size: 22px;
+}
+div.b{
+  width: 320px;
+  padding: 10px;
+  border: 3px solid rgb(154, 194, 184);
+  margin: 0;
+  border-radius: 15px;
+  float: right;
+  margin-top: 140px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+img.a{
+  float: right;
+  margin-right: 100px;
+}
+img.b{
+  float: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+img.c{
+  float: right;
+  margin-right: 250px;
+}
+
+img.d{
+  margin-right: 20px;
+  float: right;
+}
+
+img.k{
+  float: none;
+  margin-left: 25%;
+}
+
+img.e{
+  float: left;
+  margin-left: 77px;
+}
+
+iframe.a{
+  margin-left: 20%;
+  margin-top: 10px;
+}
+
+li{
+  font-size: 20px;
+}
+
+.list{
+  margin-left: 17cm;
+  margin-right: 15cm;
+}
+
+table, th, td {
+  border: 2px solid rgb(0, 0, 0);
+  border-collapse: collapse;
+  margin-left: 15%;
+  width: 70%; 
+  font-size:large;
+  height: 29%;
+  padding: 10px;
+}
+
+.footer {
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(154, 194, 184);
+  color: white;
+  text-align:center;
+}
